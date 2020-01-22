@@ -7,7 +7,9 @@ namespace NoOdditiesHere
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(NoOdds(new int[] { 1, 2, 3, 4, 5 }));
+            int[] noOdds = NoOdds(new int[] { 1, 2, 3, 4, 5 });
+            foreach (var value in noOdds)
+                Console.WriteLine(value);
         }
 
         public static int[] NoOdds(int[] values)
