@@ -19,7 +19,6 @@ namespace BinaryToText
                 string a = binary.Substring(i * 8, 8);
                 int dec = Convert.ToInt32(a, 2);
                 result = result + (char)dec;
-
             }
 
             return result;
