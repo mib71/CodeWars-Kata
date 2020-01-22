@@ -12,13 +12,17 @@ namespace BinaryToText
         }
         public static string BinaryToString(string binary)
         {
-            List<Byte> byteList = new List<Byte>();
+            string result = "";
 
-            for (int i = 0; i < binary.Length; i += 8)
+            for (int i = 0; i < binary.Length / 8; i++)
             {
-                byteList.Add(Convert.ToByte(binary.Substring(i, 8), 2));
+                string a = binary.Substring(i * 8, 8);
+                int dec = Convert.ToInt32(a, 2);
+                result = result + (char)dec;
+
             }
-            return Encoding.ASCII.GetString(byteList.ToArray());
+
+            return result;
         }
     }
 }

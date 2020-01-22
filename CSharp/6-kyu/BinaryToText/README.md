@@ -23,3 +23,7 @@ public static string BinaryToString(string binary)
       return text.ToString();
 }
 ```
+
+### Solution inspired by
+
+https://www.codewars.com/users/goshog
