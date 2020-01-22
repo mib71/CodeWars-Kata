@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 
-
 namespace SumOfNumbers
 {
     class Program
@@ -22,17 +21,16 @@ namespace SumOfNumbers
             for (int i = 0; i <= n; i++)
             {
                 sum += i;
-                if(i < n)
+                if (i < n)
                 {
                     rvList.Add(i + "+");
                 }
-                if(i == n)
+                if (i == n)
                 {
                     rvList.Add(i + " = " + sum);
                     rv = string.Join("", rvList);
                 }
             }
-            
             return rv;
         }
     }
