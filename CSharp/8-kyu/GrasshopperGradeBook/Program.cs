@@ -18,8 +18,6 @@ namespace GrasshopperGradeBook
             if (sum < 80) { return 'C'; }
             if (sum < 90) { return 'B'; }
             return 'A';
-
-
         }
     }
 }
