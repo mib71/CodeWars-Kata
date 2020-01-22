@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+
 
 namespace SumOfNumbers
 {
@@ -31,7 +31,6 @@ namespace SumOfNumbers
                     rvList.Add(i + " = " + sum);
                     rv = string.Join("", rvList);
                 }
-                 
             }
             
             return rv;
