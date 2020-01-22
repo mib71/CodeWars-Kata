@@ -11,11 +11,11 @@ Kata.Divisors(5) -> 2 -- 1, 5
 Kata.Divisors(12) -> 6 -- 1, 2, 3, 4, 6, 12  
 Kata.Divisors(30) -> 8 -- 1, 2, 3, 5, 6, 10, 15, 30  
 
-'''
+```cs
 public class Kata
 {
   public static int Divisors(int n)
   {
     // todo
   }
-}'''
+}```
