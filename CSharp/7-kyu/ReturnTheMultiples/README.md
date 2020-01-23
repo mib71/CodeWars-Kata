@@ -15,4 +15,4 @@ multiples(3, 5.0)
 ```
 
 
-[Link to the Kata: Return the first M multiples of N](https://www.codewars.com/kata/593c9175933500f33400003e/train/csharp)
+[Link to the Kata: Return the first M multiples of N](https://www.codewars.com/kata/593c9175933500f33400003e)
