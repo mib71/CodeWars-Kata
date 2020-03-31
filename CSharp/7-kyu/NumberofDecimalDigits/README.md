@@ -1,4 +1,4 @@
-## 7 kyu Odd or Even?
+## 7 kyu Number of Decimal Digits
 
 ### Task:
 
