@@ -18,4 +18,4 @@ Your code must return true or false (not 'true' and 'false') depending upon whet
 
 Error checking for text strings or other invalid inputs is not required, only valid positive non-zero integers will be passed into the function.
 
-[Link to the Kata: Does my number look big in this?](https://www.codewars.com/kata/5287e858c6b5a9678200083c/train/csharp)
+[Link to the Kata: Does my number look big in this?](https://www.codewars.com/kata/5287e858c6b5a9678200083c/csharp)
