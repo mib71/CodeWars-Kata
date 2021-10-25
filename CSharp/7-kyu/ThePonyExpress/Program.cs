@@ -12,13 +12,13 @@ namespace ThePonyExpress
         private static int Riders(int[] stations)
         {
             int riders = 1;
-            int temp = 0;
+            int distance = 0;
             for (int i = 0; i < stations.Length; i++)
             {
-                temp += stations[i];
-                if (temp >= 100)
+                distance += stations[i];
+                if (distance >= 100)
                 {
-                    temp = 0;
+                    distance = 0;
                     riders++;
                     i--;
                 }
