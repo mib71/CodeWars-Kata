@@ -12,19 +12,13 @@ namespace ElevatorDistance
         #region Kata
         private static int ElevatorDistance(int[] array)
         {
-            int res = 0;
-            for (int i = 0; i <= array.Length - 1; i++)
+            int distance = 0;
+            for (int i = 1; i < array.Length; i++)
             {
-                if (i > 0)
-                {
-                    if (array[i] < array[i - 1])
-                        res += (array[i] - array[i - 1]) * -1;
-                    else
-                        res += (array[i] - array[i - 1]);
-                }
+                distance += Math.Abs(array[i - 1] - array[i]);
             }
 
-            return res;
+            return distance;
         }
         #endregion
     }
