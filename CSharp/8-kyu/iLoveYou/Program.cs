@@ -1,5 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine(HowMuchILoveYou(2));
+﻿Console.WriteLine(HowMuchILoveYou(2));
 
 static string HowMuchILoveYou(int v)
 {
