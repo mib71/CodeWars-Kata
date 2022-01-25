@@ -11,7 +11,7 @@ https://www.codewars.com/kata/514a6336889283a3d2000001/typescript
 
 // Refactored
 export const getEvenNumbers = (numbersArray: number[]): number[] => {
-  return numbersArray.filter((n) => n % 2 == 0)
+  return numbersArray.filter((n) => n % 2 === 0)
 }
 
 // First try
