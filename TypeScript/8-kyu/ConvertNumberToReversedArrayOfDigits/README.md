@@ -1,4 +1,4 @@
-## 8 Convert number to reversed array of digits
+## 8 kyu Convert number to reversed array of digits
 
 ### Task:
 
@@ -11,12 +11,4 @@ Given a random non-negative number, you have to return the digits of this number
 0 => [0]
 ```
 
-```cs
-public class Kata
-{
-  public static string OddOrEven(int[] array)
-  {
-    //enter code here
-  }
-}
-```
+[Link to the Kata: Convert number to reversed array of digits](https://www.codewars.com/kata/5583090cbe83f4fd8c000051/typescript)
