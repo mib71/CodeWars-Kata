@@ -21,8 +21,8 @@ https://www.codewars.com/kata/5506b230a11c0aeab3000c1f/typescript
 */
 
 export const evaporator = (content: number, evapPerDay: number, threshold: number): number => {
-  let days = 0
-  let percent = 100
+  let days: number = 0
+  let percent: number = 100
 
   while (percent > threshold) {
     percent = percent - percent * (evapPerDay / 100)
