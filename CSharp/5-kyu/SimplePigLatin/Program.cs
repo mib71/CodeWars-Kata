@@ -1,6 +1,4 @@
-﻿using System.Text.RegularExpressions;
-
-namespace SimplePigLatin
+﻿namespace SimplePigLatin
 {
     /// <summary>
     /// Move the first letter of each word to the end of it, then add 
